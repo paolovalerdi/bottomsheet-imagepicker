@@ -29,7 +29,7 @@ dependencies {
 
     implementation 'com.kroegerama:android-kaiteki:2.2.2'
 
-    implementation("com.github.bumptech.glide:glide:4.8.0") {
+    implementation("com.github.bumptech.glide:glide:4.9.0") {
         exclude group: "com.android.support"
     }
 

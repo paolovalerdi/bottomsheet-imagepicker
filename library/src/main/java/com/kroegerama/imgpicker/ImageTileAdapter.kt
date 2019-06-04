@@ -134,7 +134,7 @@ sealed class VHImageTileBase(
         ) {
             this.clickListener = clickListener
             ivSelect.isVisible = selected
-            Glide.with(ivImage).load(uri).into(ivImage)
+            Glide.with(ivImage).load(uri).error(R.drawable.ic_broken_image).into(ivImage)
         }
     }
 
